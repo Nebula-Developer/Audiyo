@@ -1,3 +1,7 @@
+/home/nebuladev/Documents/audiyo/Audiyo.Tests/bin/Debug/net7.0/CoverletSourceRootsMapping
+/home/nebuladev/Documents/audiyo/Audiyo.Tests/bin/Debug/net7.0/libbass.so
+/home/nebuladev/Documents/audiyo/Audiyo.Tests/bin/Debug/net7.0/libbass_fx.so
+/home/nebuladev/Documents/audiyo/Audiyo.Tests/bin/Debug/net7.0/libbassmix.so
 /home/nebuladev/Documents/audiyo/Audiyo.Tests/bin/Debug/net7.0/xunit.runner.visualstudio.dotnetcore.testadapter.dll
 /home/nebuladev/Documents/audiyo/Audiyo.Tests/bin/Debug/net7.0/xunit.runner.reporters.netcoreapp10.dll
 /home/nebuladev/Documents/audiyo/Audiyo.Tests/bin/Debug/net7.0/xunit.runner.utility.netcoreapp10.dll
@@ -5,6 +9,9 @@
 /home/nebuladev/Documents/audiyo/Audiyo.Tests/bin/Debug/net7.0/Audiyo.Tests.runtimeconfig.json
 /home/nebuladev/Documents/audiyo/Audiyo.Tests/bin/Debug/net7.0/Audiyo.Tests.dll
 /home/nebuladev/Documents/audiyo/Audiyo.Tests/bin/Debug/net7.0/Audiyo.Tests.pdb
+/home/nebuladev/Documents/audiyo/Audiyo.Tests/bin/Debug/net7.0/ManagedBass.dll
+/home/nebuladev/Documents/audiyo/Audiyo.Tests/bin/Debug/net7.0/ManagedBass.Fx.dll
+/home/nebuladev/Documents/audiyo/Audiyo.Tests/bin/Debug/net7.0/ManagedBass.Mix.dll
 /home/nebuladev/Documents/audiyo/Audiyo.Tests/bin/Debug/net7.0/Microsoft.VisualStudio.CodeCoverage.Shim.dll
 /home/nebuladev/Documents/audiyo/Audiyo.Tests/bin/Debug/net7.0/Microsoft.TestPlatform.CoreUtilities.dll
 /home/nebuladev/Documents/audiyo/Audiyo.Tests/bin/Debug/net7.0/Microsoft.TestPlatform.PlatformAbstractions.dll
@@ -85,6 +92,8 @@
 /home/nebuladev/Documents/audiyo/Audiyo.Tests/bin/Debug/net7.0/zh-Hant/Microsoft.TestPlatform.CommunicationUtilities.resources.dll
 /home/nebuladev/Documents/audiyo/Audiyo.Tests/bin/Debug/net7.0/zh-Hant/Microsoft.TestPlatform.CrossPlatEngine.resources.dll
 /home/nebuladev/Documents/audiyo/Audiyo.Tests/bin/Debug/net7.0/zh-Hant/Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+/home/nebuladev/Documents/audiyo/Audiyo.Tests/bin/Debug/net7.0/Audiyo.Library.dll
+/home/nebuladev/Documents/audiyo/Audiyo.Tests/bin/Debug/net7.0/Audiyo.Library.pdb
 /home/nebuladev/Documents/audiyo/Audiyo.Tests/obj/Debug/net7.0/Audiyo.Tests.csproj.AssemblyReference.cache
 /home/nebuladev/Documents/audiyo/Audiyo.Tests/obj/Debug/net7.0/Audiyo.Tests.GeneratedMSBuildEditorConfig.editorconfig
 /home/nebuladev/Documents/audiyo/Audiyo.Tests/obj/Debug/net7.0/Audiyo.Tests.AssemblyInfoInputs.cache
@@ -96,12 +105,3 @@
 /home/nebuladev/Documents/audiyo/Audiyo.Tests/obj/Debug/net7.0/Audiyo.Tests.pdb
 /home/nebuladev/Documents/audiyo/Audiyo.Tests/obj/Debug/net7.0/Audiyo.Tests.genruntimeconfig.cache
 /home/nebuladev/Documents/audiyo/Audiyo.Tests/obj/Debug/net7.0/ref/Audiyo.Tests.dll
-/home/nebuladev/Documents/audiyo/Audiyo.Tests/bin/Debug/net7.0/CoverletSourceRootsMapping
-/home/nebuladev/Documents/audiyo/Audiyo.Tests/bin/Debug/net7.0/ManagedBass.dll
-/home/nebuladev/Documents/audiyo/Audiyo.Tests/bin/Debug/net7.0/ManagedBass.Fx.dll
-/home/nebuladev/Documents/audiyo/Audiyo.Tests/bin/Debug/net7.0/ManagedBass.Mix.dll
-/home/nebuladev/Documents/audiyo/Audiyo.Tests/bin/Debug/net7.0/Audiyo.Library.dll
-/home/nebuladev/Documents/audiyo/Audiyo.Tests/bin/Debug/net7.0/Audiyo.Library.pdb
-/home/nebuladev/Documents/audiyo/Audiyo.Tests/bin/Debug/net7.0/libbass.so
-/home/nebuladev/Documents/audiyo/Audiyo.Tests/bin/Debug/net7.0/libbass_fx.so
-/home/nebuladev/Documents/audiyo/Audiyo.Tests/bin/Debug/net7.0/libbassmix.so

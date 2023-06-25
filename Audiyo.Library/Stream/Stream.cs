@@ -145,6 +145,23 @@ public partial class AudioStream {
     }
 
     /// <summary>
+    /// Wait for the spesified index to finish playing.
+    /// </summary>
+    /// <param name="index">The index to wait for</param>
+    public void WaitToFinish(int index) {
+        AttemptAction(index, () => {
+            double length = GetLength(index);
+            double pos = GetPosition(index);
+            Task.Delay((int)((length - pos) * 1000)).Wait();
+        });
+    }
+    
+    /// <summary>
+    /// Wait for the current index to finish playing.
+    /// </summary>
+    public void WaitToFinish() => WaitToFinish(CurrentIndex);
+
+    /// <summary>
     /// Base <see cref="AudioStream"/> constructor.
     /// </summary>
     public AudioStream() {

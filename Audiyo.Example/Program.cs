@@ -21,10 +21,18 @@ public static class Program {
 
         bool playing = true;
 
+        float Lerp(float a, float b, float t) => a + (b - a) * t;
+
+        float frequency = stream.GetFrequency();
+
         void UpdatePosition() {
             double length = stream.GetLength();
             double position = stream.GetPosition();
             double progress = position / length;
+
+            // Progressively lower the frequency as the song progresses:
+            // float lerping = Lerp(frequency, frequency / 2, (float)progress);
+            // ManagedBass.Bass.ChannelSetAttribute(stream.CurrentHandle, ManagedBass.ChannelAttribute.Frequency, lerping);
 
             int fill = (int)((float)Console.WindowWidth * progress);
             int empty = Console.WindowWidth - fill;

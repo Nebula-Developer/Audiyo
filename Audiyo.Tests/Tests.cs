@@ -36,8 +36,5 @@ public class Tests {
                 Console.WriteLine($"Handle {stream.Handles.ElementAt(i).Key}: {stream.Handles.ElementAt(i).Value}");
             }
         }
-        
-
-        Console.ReadKey();
     }
 }

@@ -148,4 +148,17 @@ public partial class AudioStream {
     /// <param name="volume">The volume to fade to (0-1)</param>
     /// <param name="time">The time to fade over (in ms)</param>
     public void FadeVolume(int index, float volume, int time) => FadeAttribute(index, ChannelAttribute.Volume, volume, time);
+
+    /// <summary>
+    /// Get the frequency of the current handle.
+    /// </summary>
+    /// <returns>The frequency of the current handle</returns>
+    public float GetFrequency() => GetFrequency(CurrentIndex);
+
+    /// <summary>
+    /// Get the frequency of the handle at the spesified index.
+    /// </summary>
+    /// <param name="index">The index to get the frequency of</param>
+    /// <returns>The frequency of the handle at the spesified index</returns>
+    public float GetFrequency(int index) => (float)Bass.ChannelGetAttribute(Handles[index], ChannelAttribute.Frequency);
 }

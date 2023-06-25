@@ -21,12 +21,16 @@ public class Tests {
         stream.CreateAndSwitchHandle(GetRandomSample);
         
         float volume = 1;
+        float frequency = stream.GetFrequency();
 
         while (true) {
             ConsoleKey key = Console.ReadKey().Key;
 
             if (key == ConsoleKey.DownArrow) stream.SetVolume(volume -= 0.1f);
             else if (key == ConsoleKey.UpArrow) stream.SetVolume(volume += 0.1f);
+
+            if (key == ConsoleKey.R) stream.FadeAttribute(ChannelAttribute.Frequency, frequency, 1000);
+            else if (key == ConsoleKey.F) stream.FadeAttribute(ChannelAttribute.Frequency, stream.GetFrequency() / 1.5f, 1000);
 
             if (key == ConsoleKey.RightArrow) stream.CrossfadeHandle(stream.CreateHandle(GetRandomSample), endValue: volume);
             else if (key == ConsoleKey.LeftArrow) stream.CrossfadeHandle(stream.CreateHandle(GetRandomSample), endValue: volume);

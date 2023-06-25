@@ -33,7 +33,7 @@ public static class Program {
             Console.SetCursorPosition(0, 0);
             string substring = song.Substring(song.LastIndexOf('/') + 1);
             substring = substring.Substring(0, substring.LastIndexOf('.'));
-            Console.Write(bar + "\n" + substring + "\n" + Math.Round(position, 2) + " / " + Math.Round(length, 2) + " (" + Math.Round(progress * 100, 2) + "%)");
+            Console.Write(bar + "\n" + substring + "         " + "\n" + Math.Round(position, 2) + " / " + Math.Round(length, 2) + " (" + Math.Round(progress * 100, 2) + "%)" + "         ");
         }
 
         Thread inputThread = new Thread(() => {
